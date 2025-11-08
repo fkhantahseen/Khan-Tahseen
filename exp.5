@@ -3,9 +3,16 @@ UIN: 251P116
 Division: D
 Class: Computer
 */
-#include<stdio.h>
-
-    int factorial(int n){
+ #include<stdio.h> 
+ 
+ int iterative_fact(int num){
+     int fact = 1;
+     for (int i=num; i>=1; i--){
+         fact = fact * i;
+     }
+     return fact;
+ }
+  int factorial(int n){
         if(n == 0 || n == 1)
         return 1;
         else
@@ -14,6 +21,6 @@ Class: Computer
     }
     int main(){
     int num = 6;
-    printf("Factorial if %d is %d\n", num, factorial(num));
+    printf("Factorial of %d is %d\n", num, factorial(num));
     return 0;
     }
