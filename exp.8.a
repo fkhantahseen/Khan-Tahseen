@@ -1,0 +1,15 @@
+/*
+Name: Khan Tahseen Fatima
+UIN: 251P116
+Division: D
+Class: Computer
+*/
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char name[] = " Khan Tahseen Fatima Azmat Ali ";
+    printf("Length of String: %d", strlen(name));
+
+    return 0;
+}
