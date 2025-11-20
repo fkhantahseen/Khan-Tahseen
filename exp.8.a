@@ -4,12 +4,17 @@ UIN: 251P116
 Division: D
 Class: Computer
 */
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-    char name[] = " Khan Tahseen Fatima Azmat Ali ";
-    printf("Length of String: %d", strlen(name));
-
-    return 0;
+#include<stdio.h>
+int main(){
+ char str[100];
+ int i = 0;
+ 
+ printf("Enter a String: ");
+ scanf("%s",str);
+ 
+ while (str[i] != '\0'){
+     i++;
+ } 
+printf("Length = %d",i);
+return 0;
 }
