@@ -1,23 +1,11 @@
-print("Tahseen")
+#Tahseen Khan
+#251P116
+
+print("Tahseen Khan")
 print("251P116")
+Principle=float(input("Enter the Principle Amount:"))
+Rate=float(input("Enter the Rate of Interest:"))
+Time=float(input("Enter the Time Period in years:"))
+Simple_interest= (Principle* Rate* Time)/100
 
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
-
-addition = num1 + num2
-subtraction = num1 - num2
-multiplication = num1 * num2
-
-if num2 != 0:
-   division = num1 / num2
-   modulus = num1 % num2
-else:
-   division = "Undefined (cannot divide by zero)"
-   modulus = "Undefined (cannot divide by zero)"
-
-print("\nResults of Arithmetic Operations:")
-print(f"{num1} + {num2} = {addition}")
-print(f"{num1} - {num2} = {subtraction}")
-print(f"{num1} * {num2} = {multiplication}")
-print(f"{num1} / {num2} = {division}")
-print(f"{num1} % {num2} = {modulus}")
+print("Simple Interest is :",Simple_interest)
